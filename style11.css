@@ -115,6 +115,10 @@ p {
     margin-left: 2px;
   }
 
+.h1 a:hover {
+    background-color: white;
+}
+
 @media screen and (max-width: 769px) {
     .res-image {
         height: auto;
