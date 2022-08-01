@@ -8,6 +8,7 @@ body {
     position: absolute;
     bottom: 0px;
     width: 96.6667%;
+    background: rgba(0, 0, 0, 0.5);
 }
 
 ul li a:hover {
