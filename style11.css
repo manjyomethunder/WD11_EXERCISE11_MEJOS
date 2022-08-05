@@ -5,8 +5,8 @@ body {
 
 .main-text {
     color: #fff;
-    position: absolute;
-    bottom: 0px;
+    position: relative;
+    bottom: 500px;
     width: 96.6667%;
     background: rgba(0, 0, 0, 0.3);
 }
@@ -139,31 +139,11 @@ p {
 
 @media screen and (max-width: 1000px) {
     .main-text {
-        color: #fff;
-        position: absolute;
-        top: 300px;
-        width: 96.6667%;
-        font-size: 50%;
+        display: none;
     }
     
 }
 
-@media screen and (max-width: 650px) {
-    .main-text {
-        color: #fff;
-        position: absolute;
-        top: 250px;
-        width: 96.6667%;
-        font-size: 50%;
-    }
-    
-}
-
-@media screen and (max-width: 500px) {
-    .main-text {
-    display: none;
-    }
-}
 @media screen and (max-width: 769px) {
     #navbar-brand {
         margin-left: 2rem;
